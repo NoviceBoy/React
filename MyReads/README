@@ -1,0 +1,20 @@
+# MyReads Project
+
+App instalation steps:
+1. cd to the workspace folder, do "npm install"
+2. Do a "npm start" to start the server
+3. Server is started at http://localhost:3000/
+
+App functions:
+1. Main page: 
+   # A list of 3 shelves are shown where a user can organize the books in 3 categories : currently reading, read and want to read
+   # User can shuffle books between shelves by clicking on the drop down menu( drop down menu for a book shows the current shelf its on or
+     none if its not on any of the shelves
+   # There is an icon to navigate to the search page for searching books
+   
+2. Search page:
+   # User can search books in the collection, search terms are limited to the ones given in SEARCH_TERMS.md
+   # If a book is already on a shelf, the shelf details reflect on the book in search results
+   # User can move a book to any shelf from the search result
+   # On navigating back/reloading the home page the newly added book appears on the correct shelf
+   
